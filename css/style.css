@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body {
+		font-family: 'Raleway', sans-serif;
+}
+.container{
+	width: 1360px;
+	height: 3698px;
+	margin: 0 auto;
+	background-color: #ffffff;
+}
+
+.nav-box {
+	padding-top: 25px;
+	margin-left: 95px;
+	margin-right: 96px;
+
+}
+.logo {
+	display: inline-block;
+	height: 31px;
+	width: 133px;
+}
+
+
+.nav-list {
+	display: flex;
+	column-gap: 50px;
+	justify-content: flex-end;
+}
+
+.bar {
+	color: black;
+	height: 13px;
+	font-size: 16px;
+}
+
+/*Cover*/
+
+.image-wrapper{
+	width: 1360px;
+	height: 400px;
+	background-image: url("../images/background.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0.3;
+	flex-wrap: wrap;
+	flex-direction: column;
+	margin-bottom: 100px;
+	margin-top: 50px;
+}
+.element1 {
+	height: 60px;
+	width: 588px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: black;
+	font-size: 60px;
+}
+.element2 {
+	height: 14px;
+	width: 314px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: black;
+}
+
+/*Our Services*/
+
+.row{
+	width: 242px;
+	height: 238px;
+	line-height: 25px;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: start;
+	display: flex;	
+
+}
+
+.row1 {
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-left: 100px;
+
+}
+.row2 {
+	flex-direction: row;
+	flex-wrap: wrap;
+	height: 94px;
+	width: 268px;
+	margin-left: 70px;
+
+}
+.family {
+
+	height: 198px;
+	width: 296px;
+
+}
+.row3 {
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: end;
+	margin-left: 90px;
+	width: 296px;
+
+}
+.row4 {
+	display: flex;
+	width: 296px;
+	flex-direction: column;
+/*	flex-wrap: wrap;*/
+	justify-content: center;
+}
+
+.row5 {
+	display: flex;
+	width: 296px;
+	flex-direction: row;
+/*	flex-wrap: wrap;*/
+	justify-content: center;
+}
+.row6 {
+	display: flex;
+	width: 296px;
+	flex-direction: row;
+/*	flex-wrap: wrap;*/
+	justify-content: center;
+}
+
+
+
+
+
+
+
